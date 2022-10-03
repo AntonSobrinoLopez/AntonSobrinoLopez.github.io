@@ -1,0 +1,61 @@
+
+/** background**/
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.class-contenedor-principal{
+background-image: url(./img/fondo.jpg);
+height: 100%;
+width: 100%;
+background-size: cover;
+background-position: center;
+}
+
+ /**config foto anton**/
+ #img-foto1{
+   display: inline-block;
+   }
+
+.class-navbar, .class-footer{
+   /**background-color:rgb(81, 118, 155);
+   border-bottom: 1px solid blue;
+   border-top: 1px solid blue;**/
+   opacity: 100%;
+   background: linear-gradient(0deg,rgb(81, 118, 155),rgba(255, 255, 255, 0.5));
+
+}
+/** links in a row**/
+.class-navbar li{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: large;
+
+}
+/**config. enlaces Navbar**/
+/**margin: valor 1 , valor 2 (donde valor 1 será margin top y bottom y valor 2 serán margin left y right.**/
+.class-navbar-enlaces{
+   font-size: large;
+   text-align: right; 
+}
+/** colored links**/
+a{
+   color:rgb(11, 2, 20)
+}
+
+/**font type**/
+ body{
+    font-family: 'Montserrat', sans-serif;
+ }
+  
+ .class-footer li{
+    text-align: right;
+    display: inline-block;
+    
+ }
+
+ p{
+   color: white;
+ }
+
+ 
