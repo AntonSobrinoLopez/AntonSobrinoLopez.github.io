@@ -2,44 +2,45 @@
 *{
    margin: 0px;
    padding: 0px;
+   font-family: 'Montserrat', sans-serif;
+
 }
  /** links in a row**/
-.class-navbar li{
+.class-navbar-enlaces li{
     display: inline-block;
     margin-top: 10px;
     font-size: large;
+    text-align: right;
+    
 }
 
+h2{
+   color: white;
+
+}
 /**config. enlaces Navbar**/
 /**margin: valor 1 , valor 2 (donde valor 1 será margin top y bottom y valor 2 serán margin left y right.**/
-.class-navbar-enlaces{
-   font-size: large;
-   text-align: right; 
-}
-/** colored links**/
-a{
-   color:black
-}
 
-/**font type**/
- body{
-    font-family: 'Montserrat', sans-serif;
- }
-  
+/** colored links**/
+.class-navbar-enlaces{
+   color:white
+}
+ 
  .class-footer li{
     text-align: right;
     display: inline-block;
+    font-family: 'Montserrat', sans-serif;
  }
 
  .class-navbar{
    background-color: #f2d13d;
-   border: 1px solid black;
+   border: 0px solid black;
    padding: 10px 50px;
  }
 
  .class-footer{
    background-color: #f2d13d;
-   border: 1px solid black;
+   border: 0px solid black;
    padding: 10px 50px;
 
  }
@@ -52,12 +53,6 @@ a{
    padding: 10px;
    display: inline-block;
 }
-**/
-/** background**/
-*{
-    margin: 0px;
-    padding: 0px;
- }
   /** links in a row**/
  .class-navbar li{
      display: inline-block;
@@ -94,7 +89,7 @@ a{
  
   .class-footer{
     background-color: #f2d13d;
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 10px 50px;
  
   }
@@ -108,4 +103,11 @@ a{
     display: inline-block;
  }
  **/
+
+ .banner-container{
+   background-color: white;
+   border: 0px solid black;
+   padding: 10px 50px;
+
+ }
  
