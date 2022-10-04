@@ -1,37 +1,15 @@
-
 /** background**/
 *{
    margin: 0px;
    padding: 0px;
 }
-.class-contenedor-principal{
-background-image: url(./img/fondo.jpg);
-height: 100%;
-width: 100%;
-background-size: cover;
-background-position: center;
-}
-
- /**config foto anton**/
- #img-foto1{
-   display: inline-block;
-   }
-
-.class-navbar, .class-footer{
-   /**background-color:rgb(81, 118, 155);
-   border-bottom: 1px solid blue;
-   border-top: 1px solid blue;**/
-   opacity: 100%;
-   background: linear-gradient(0deg,rgb(81, 118, 155),rgba(255, 255, 255, 0.5));
-
-}
-/** links in a row**/
+ /** links in a row**/
 .class-navbar li{
     display: inline-block;
     margin-top: 10px;
     font-size: large;
-
 }
+
 /**config. enlaces Navbar**/
 /**margin: valor 1 , valor 2 (donde valor 1 será margin top y bottom y valor 2 serán margin left y right.**/
 .class-navbar-enlaces{
@@ -40,7 +18,7 @@ background-position: center;
 }
 /** colored links**/
 a{
-   color:rgb(11, 2, 20)
+   color:black
 }
 
 /**font type**/
@@ -51,11 +29,83 @@ a{
  .class-footer li{
     text-align: right;
     display: inline-block;
-    
  }
 
- p{
-   color: white;
+ .class-navbar{
+   background-color: #f2d13d;
+   border: 1px solid black;
+   padding: 10px 50px;
  }
 
+ .class-footer{
+   background-color: #f2d13d;
+   border: 1px solid black;
+   padding: 10px 50px;
+
+ }
+
+ /**
+ #col-1, #col-2{
+   border: 2px solid brown;
+   width: 47%;
+   margin: 0 auto;
+   padding: 10px;
+   display: inline-block;
+}
+**/
+/** background**/
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+  /** links in a row**/
+ .class-navbar li{
+     display: inline-block;
+     margin-top: 10px;
+     font-size: large;
+ }
+ 
+ /**config. enlaces Navbar**/
+ /**margin: valor 1 , valor 2 (donde valor 1 será margin top y bottom y valor 2 serán margin left y right.**/
+ .class-navbar-enlaces{
+    font-size: large;
+    text-align: right; 
+ }
+ /** colored links**/
+ a{
+    color:black
+ }
+ 
+ /**font type**/
+  body{
+     font-family: 'Montserrat', sans-serif;
+  }
+   
+  .class-footer li{
+     text-align: right;
+     display: inline-block;
+  }
+ 
+  .class-navbar{
+    background-color: #f2d13d;
+    border: 1px solid black;
+    padding: 10px 50px;
+  }
+ 
+  .class-footer{
+    background-color: #f2d13d;
+    border: 1px solid black;
+    padding: 10px 50px;
+ 
+  }
+ 
+  /**
+  #col-1, #col-2{
+    border: 2px solid brown;
+    width: 47%;
+    margin: 0 auto;
+    padding: 10px;
+    display: inline-block;
+ }
+ **/
  
