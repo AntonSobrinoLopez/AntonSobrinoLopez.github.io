@@ -1,10 +1,14 @@
+html {
+   font-family: 'Montserrat', sans-serif;
+
+}
+
 /** background**/
 *{
    margin: 0px;
    padding: 0px;
-   font-family: 'Montserrat', sans-serif;
-
 }
+
  /** links in a row**/
 .class-navbar-enlaces li{
     display: inline-block;
@@ -29,7 +33,6 @@ h2{
  .class-footer li{
     text-align: right;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
  }
 
  .class-navbar{
@@ -71,11 +74,6 @@ h2{
     color:black
  }
  
- /**font type**/
-  body{
-     font-family: 'Montserrat', sans-serif;
-  }
-   
   .class-footer li{
      text-align: right;
      display: inline-block;
@@ -83,7 +81,7 @@ h2{
  
   .class-navbar{
     background-color: #f2d13d;
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 10px 50px;
   }
  
