@@ -1,6 +1,8 @@
 html {
    font-family: 'Montserrat', sans-serif;
-
+   background-image:url(/img/fondo2.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
 }
 
 /** background**/
@@ -9,8 +11,17 @@ html {
    padding: 0px;
 }
 
+.class-contenedor-principal{
+   background-color: #003d6b;
+   margin-left:auto;
+   margin-right:auto;
+   padding: 300px;
+   max-width: 500px;
+
+}
+
  /** links in a row**/
-.class-navbar-enlaces li{
+.class-header-enlaces li{
     display: inline-block;
     margin-top: 10px;
     font-size: large;
@@ -26,7 +37,7 @@ h2{
 /**margin: valor 1 , valor 2 (donde valor 1 será margin top y bottom y valor 2 serán margin left y right.**/
 
 /** colored links**/
-.class-navbar-enlaces{
+.class-header-enlaces{
    color:white
 }
  
@@ -35,14 +46,14 @@ h2{
     display: inline-block;
  }
 
- .class-navbar{
-   background-color: #f2d13d;
+ .class-header{
+   background-color: #00a3dd;
    border: 0px solid black;
    padding: 10px 50px;
  }
 
  .class-footer{
-   background-color: #f2d13d;
+   background-color: #00a3dd;
    border: 0px solid black;
    padding: 10px 50px;
 
@@ -57,7 +68,7 @@ h2{
    display: inline-block;
 }
   /** links in a row**/
- .class-navbar li{
+ .class-header li{
      display: inline-block;
      margin-top: 10px;
      font-size: large;
@@ -65,7 +76,7 @@ h2{
  
  /**config. enlaces Navbar**/
  /**margin: valor 1 , valor 2 (donde valor 1 será margin top y bottom y valor 2 serán margin left y right.**/
- .class-navbar-enlaces{
+ .class-header-enlaces{
     font-size: large;
     text-align: right; 
  }
@@ -79,14 +90,14 @@ h2{
      display: inline-block;
   }
  
-  .class-navbar{
-    background-color: #f2d13d;
+  .class-header{
+    background-color: #00a3dd;
     border: 0px solid black;
     padding: 10px 50px;
   }
  
   .class-footer{
-    background-color: #f2d13d;
+    background-color: #00a3dd;
     border: 0px solid black;
     padding: 10px 50px;
  
