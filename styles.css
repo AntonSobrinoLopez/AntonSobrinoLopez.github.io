@@ -11,13 +11,13 @@ html {
    padding: 0px;
 }
 
-.class-contenedor-principal{
+
+.class-container{
    background-color: #003d6b;
    margin-left:auto;
    margin-right:auto;
-   padding: 300px;
-   max-width: 500px;
-
+   padding: 100px;
+   max-width: 65%;
 }
 
  /** links in a row**/
@@ -29,10 +29,12 @@ html {
     
 }
 
-h2{
+#name{
    color: white;
-
+   font-weight: 200px;
+   font-size:50px;
 }
+
 /**config. enlaces Navbar**/
 /**margin: valor 1 , valor 2 (donde valor 1 será margin top y bottom y valor 2 serán margin left y right.**/
 
@@ -92,14 +94,16 @@ h2{
  
   .class-header{
     background-color: #00a3dd;
-    border: 0px solid black;
     padding: 10px 50px;
+    border: 5px solid white;
+   border-style: inset;
   }
  
   .class-footer{
     background-color: #00a3dd;
-    border: 0px solid black;
     padding: 10px 50px;
+    border: 5px solid white;
+   border-style: inset;
  
   }
  
@@ -115,8 +119,29 @@ h2{
 
  .banner-container{
    background-color: white;
-   border: 0px solid black;
    padding: 10px 50px;
+   border: 5px solid white;
+   border-style: inset;
 
  }
- 
+
+ .class-conteiner-content{
+   border: 5px solid white;
+   border-style: inset;
+   text-align: right;
+  
+ }
+
+ .class-container-foto, img{
+   padding: 10px;
+
+ }
+
+ img {
+   margin-right: auto;
+   display: block;
+  }
+
+#banner-container{
+   display: inline-block;
+}
