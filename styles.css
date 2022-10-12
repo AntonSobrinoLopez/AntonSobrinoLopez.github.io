@@ -122,6 +122,11 @@ html {
    padding: 10px 50px;
    border: 5px solid white;
    border-style: inset;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
 
  }
 
@@ -129,6 +134,11 @@ html {
    border: 5px solid white;
    border-style: inset;
    text-align: right;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
   
  }
 
@@ -139,7 +149,9 @@ html {
 
  img {
    margin-right: auto;
-   display: block;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
   }
 
 #banner-container{
