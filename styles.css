@@ -43,9 +43,16 @@ html {
 }
 
 /**class-body-about**/
+
+body{
+   /*centar body*/
+   margin: 0 auto;
+}
+
 .class-body-about{
    display:inline-block;
    border-bottom: 2px solid white;
+   border-top: 2px solid white;
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -53,9 +60,10 @@ html {
    align-items: center;
 }
 
-img{
+#fotoAnton{
    max-width: 25%;
-   border-radius: 20%;   
+   border-radius: 20%;
+    
 }
 .body-text{
    color: white;
@@ -71,21 +79,61 @@ img{
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: center;
+   /* justify-content: center; */
    align-items: center;
    padding: 2%;
    border-bottom: 2px solid white;
+   
+   
 }
 
 /*logos*/
-#data{
-   width: 50%;
+#div-data{
+   width: 85%;
+
 }
 
-#sql{
-   width: 40%;
+#div-data1{
+   width: 85%;
+
+}
+#div-data2{
+   width: 85%;
+
+}
+#div-sql{
+   width: 35%;
 }
 
+.title-section{
+   color: white;
+   padding: 2px;
+}
+
+
+/* Adaptar pantallas */
+@media (min-width:320px)  { 
+   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+       table, p, img {
+       padding-right: 1em;
+       width: 100%;
+       }
+    }
+   @media (min-width:480px)  { 
+   /* smartphones, Android phones, landscape iPhone */ 
+   }
+   @media (min-width:600px)  { 
+   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+   }
+   @media (min-width:801px)  { 
+   /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+   }
+   @media (min-width:1025px) { 
+   /* big landscape tablets, laptops, and desktops */ 
+   }
+   @media (min-width:1281px) { 
+   /* hi-res laptops and desktops */ 
+   }
 
  
  
