@@ -25,12 +25,17 @@ html {
    border: 0px solid black;
    border-style: inset;
    padding: 5px;
+   
  }
 
  .class-header{
    text-align: right;
+   border-bottom: 2px solid white;
+ 
  }
-
+ .class-footer{
+ border-top: 2px solid white;
+ }
 
  /** links in a row**/
 .class-header-enlaces li{
@@ -42,17 +47,20 @@ html {
    font-size: 1.5em;
 }
 
-/**class-body-about**/
-
 body{
    /*centar body*/
    margin: 0 auto;
 }
 
+/**class-body-about**/
+
+/* line under h2*/
+
 .class-body-about{
    display:inline-block;
-   border-bottom: 2px solid white;
-   border-top: 2px solid white;
+   /* border-bottom: 2px solid white; */
+   /* border-top: 2px solid white; */
+   border:  2px solid white; ;
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -76,13 +84,14 @@ body{
 /*class-body-work*/
 .class-body-work{
    background-color: white;
+   border:  2px solid white; ;
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
    /* justify-content: center; */
    align-items: center;
    padding: 2%;
-   border-bottom: 2px solid white;
+   
    
    
 }
@@ -107,17 +116,21 @@ body{
 
 .title-section{
    color: white;
-   padding: 2px;
+   padding:1em;
 }
 
 /*social*/
 .container-contactos{
-   display: block;
-   padding: 2em;
-   margin-left: 20%;
-   margin-right: 20%;
+  padding: 3em;
+  
 }
+
+.class-contacts{
+   border: 2px solid white;
+   display: inline-block;
+   padding: 2em;
    
+}
 
 
 
