@@ -68,6 +68,12 @@ body{
    align-items: center;
 }
 
+/*poner en linea*/
+#name , #fotoAnton{
+   display: inline-block;
+   
+}
+
 #fotoAnton{
    max-width: 25%;
    border-radius: 20%;
@@ -127,12 +133,23 @@ body{
 
 .class-contacts{
    border: 2px solid white;
-   display: inline-block;
-   padding: 2em;
+   padding: 0 10px;
+   width: 100%;
+   
    
 }
 
+.icons{
+   display: inline-block;
+   padding: 2em 2em;
+   align-items: center;
+}
 
+/*alinear iconos
+.inline{
+    display: inline-block;
+    padding: 0 10px;
+    */
 
  
 
