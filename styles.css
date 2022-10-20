@@ -92,7 +92,9 @@ body{
    border:  2px solid white; ;
    display:flex;
    flex-direction: row;
-   flex-wrap: wrap;
+   /* flex-wrap: wrap; */
+   flex-flow: row wrap;
+ 
    /* justify-content: center; */
    align-items: center;
    padding: 2%;
