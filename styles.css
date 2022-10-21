@@ -17,7 +17,8 @@ html {
    margin-left:auto;
    margin-right:auto;
    padding: 50px;
-   max-width: 65%;
+   max-width: 65vw;
+   max-height: 100%;
 }
 /*header and footer*/
 .class-header, .class-footer{
@@ -70,19 +71,19 @@ body{
 /*poner en linea*/
 #name , #fotoAnton{
    display: inline-block;
+   max-width: 50%;
    
 }
 
 #fotoAnton{
-   max-width: 25%;
-   border-radius: 20%;
+   max-width: 50%;
+   
     
 }
-.body-text{
+.class-body-text{
    color: white;
-   font-weight: 100%;
-   font-size:100%;
-   padding-top: 3px;
+   /* font-weight: 100em; */
+   padding-top: 1em;
    align-items: center;
 }
 
@@ -91,15 +92,20 @@ body{
    background-color: white;
    border:  2px solid white; ;
    display:flex;
-   flex-direction: row;
-   justify-content: space-around;
-    /* justify-content: center; */
-   align-items: center;
+   flex-flow: row wrap;
+   /* align-items: center; */
    padding: 2%;
-   
-   
+   max-width: 65vw;
+   max-height: 100%;
    
 }
+
+.class-body-work > div{
+   width: 60%;
+   margin: 10px;
+   max-width: 40%;
+}
+
 
 /*logos*/
 #div-data{
@@ -133,8 +139,12 @@ body{
 .class-contacts{
    border: 2px solid white;
    padding: 0 10px;
-   width: 100%;
-   
+   /* width: 100%; */
+   display: flex;
+   display:flex;
+   flex-direction: row;
+   /* flex-wrap: wrap; */
+   justify-content: center;
    
 }
 
@@ -142,7 +152,10 @@ body{
    display: inline-block;
    padding: 2em 2em;
    align-items: center;
+   
 }
+
+
 
 /*alinear iconos
 .inline{
