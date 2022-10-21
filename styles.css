@@ -3,13 +3,11 @@ html {
    background-image:url(/img/fondo.jpg);
    background-repeat: no-repeat;
    background-size:cover;
+  
 }
 
 /** background**/
-*{
-   margin: 0px;
-   padding: 0px;
-}
+
 
 /*body*/
 .class-body{
@@ -48,6 +46,8 @@ html {
    font-size: 1.5em;
 }
 
+
+
 body{
    /*centar body*/
    margin: 0 auto;
@@ -68,18 +68,7 @@ body{
    justify-content: center;
 }
 
-/*poner en linea*/
-#name , #fotoAnton{
-   display: inline-block;
-   max-width: 50%;
-   
-}
 
-#fotoAnton{
-   max-width: 50%;
-   
-    
-}
 .class-body-text{
    color: white;
    /* font-weight: 100em; */
@@ -89,12 +78,13 @@ body{
 
 /*class-body-work*/
 .class-body-work{
-   background-color: white;
+   /* background-color: white; */
    border:  2px solid white; ;
    display:flex;
-   flex-flow: row wrap;
-   /* align-items: center; */
-   padding: 2%;
+   flex-wrap: wrap;
+   align-items:center;
+   justify-content: center;
+   padding: 1.5em;
    max-width: 65vw;
    max-height: 100%;
    
@@ -102,27 +92,16 @@ body{
 
 .class-body-work > div{
    width: 60%;
-   margin: 10px;
+   padding: 1em;
+   margin: 0 auto;
    max-width: 40%;
+   
 }
 
-
-/*logos*/
-#div-data{
-   width: 85%;
-
-}
-
-#div-data1{
-   width: 85%;
-
-}
-#div-data2{
-   width: 85%;
-
-}
-#div-sql{
-   width: 35%;
+#img-work{
+   justify-content:end;
+   
+   width: 70%;
 }
 
 .title-section{
@@ -141,8 +120,9 @@ body{
    padding: 0 10px;
    /* width: 100%; */
    display: flex;
-   display:flex;
    flex-direction: row;
+   flex-wrap: wrap;
+
    /* flex-wrap: wrap; */
    justify-content: center;
    
@@ -155,13 +135,12 @@ body{
    
 }
 
+.icons:hover{
+   background-color: blueviolet;
+
+}
 
 
-/*alinear iconos
-.inline{
-    display: inline-block;
-    padding: 0 10px;
-    */
 
  
 
