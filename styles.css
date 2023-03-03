@@ -12,4 +12,15 @@ html{
 #my-carousel-control-prev {
     color: red;
   }
-  
+
+#grid-container{
+    display: flex;
+ 
+    max-width: 5rem;
+}
+
+.grid-container-column{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
