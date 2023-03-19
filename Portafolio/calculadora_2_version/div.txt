@@ -1,0 +1,21 @@
+<div class="grid-container">
+                    <div  class="item1" id="screen"> </div>
+                    <div  class="item2"> <buttton type="button" class="mybutton"  onclick="cleanScreen()" value="AC" id="AC"> AC </buttton></div>
+                    <div  class="item3"> <buttton type="button" class="mybutton"  onclick="adddata('/')" value="div" id ="div"> / </buttton></div>  
+                    <div  class="item4"> <buttton type="button" class="mybutton"  onclick="adddata('+')" value="plus" id="plus"> + </buttton></div>
+                    <div  class="item5"> <buttton type="button" class="mybutton"  onclick="adddata(7)" value="7" id = "7"> 7 </buttton></div>
+                    <div  class="item6"> <buttton type="button" class="mybutton"  onclick="adddata(8)" value="8" id="8"> 8 </buttton></div>
+                    <div  class="item7"> <buttton type="button" class="mybutton"  onclick="adddata(9)" value="9" id="9"> 9 </buttton></div>
+                    <div  class="item8"> <buttton type="button" class="mybutton"  onclick="adddata('-')" value="less" id="less"> - </buttton></div>
+                    <div  class="item9"> <buttton type="button" class="mybutton"  onclick="adddata(4)" value="4" id="4"> 4 </buttton></div>
+                    <div  class="item10"> <buttton type="button" class="mybutton"  onclick="adddata(5)" value="5" id="5"> 5 </buttton></div>
+                    <div  class="item11"> <buttton type="button" class="mybutton"  onclick="adddata(6)" value="6" id="6"> 6 </buttton></div>
+                    <div  class="item12"> <buttton type="button" class="mybutton"  onclick="adddata('*')" value="product" id="product"> * </buttton></div>
+                    <div  class="item13"> <buttton type="button" class="mybutton"  onclick="adddata(1)" value="1" id="1"> 1 </buttton></div>
+                    <div  class="item14"> <buttton type="button" class="mybutton"  onclick="adddata(2)" value="2" id="2"> 2 </buttton></div>
+                    <div  class="item15"> <buttton type="button" class="mybutton"  onclick="adddata(3)" value="3" id="3"> 3 </buttton></div>
+                    <div  class="item16"> <buttton type="button" class="mybutton"  onclick="calcul(myList)" value="do" id="do"> = </buttton></div>
+                    <div  class="item17"> <buttton type="button" class="mybutton"  onclick="adddata(0)" value="0" id="0"> 0 </buttton></div>
+                    <div  class="item18"> <buttton type="button" class="mybutton"  onclick="adddata('.')" value="colom" id="colom"> . </buttton></div>
+                  
+                </div>
