@@ -40,8 +40,8 @@
                 <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
                   <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-3 fw-bold lh-1">Anton Sobrino </h1>
-                    <p class="display-6">Today as you have the data, you have the information</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <p class="lead p-5">Professional with junior profile. Ability to adapt to new environments and new challenges. With experience in different roles within the world of work, with new knowledges and skills.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 p-4">
                       <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"><a class="nav-link text-white " href="#portfolio">Potrfolio</a></button>
                       <button type="button" class="btn btn-secondary btn-lg px-4"><a class="nav-link text-white " href="#contact">Contact</a></button>
                     </div>
@@ -59,33 +59,43 @@
                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
                   <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <ul>
-                      <li class = "py-2 lead" >Training as FullStack (Html5,CSS,Python,Django,Flask,JavaScript)</li>
-                        <li class = "py-2 lead" >Data Analyst/Data science</li>
+                      <li class = "py-2 lead" >Training as FullStack Profesional Certificate  IFCD0112  (Html5,CSS,Python,Django,Flask,JavaScript)</li>
+                        <li class = "py-2 lead" >Data Analyst/Data science Certificate obtained at IT Academy</li>
                         <li class=" py-2 lead" >Working in an international environment almost 20 year, specialized in payment means( online and face to face)</li>
                         <li class="py-2 lead">Managing a huge amount of data </li>
                         <li class = "py-2 lead">Taking part in international and national project (SEPA, New ERP for the company...) </li>
                     </ul>
                   </div>
-                  <div id="div-pill" class="col-lg-4 offset-lg-1 p-10 overflow-hidden">
-                    <img src="https://img.shields.io/badge/python-%2314354C.svg?style=flat&logo=python&logoColor=white">
-                    <img alt="Pandas" src="https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" />
-                    <img alt="NumPy" src="https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white" />
-                    <img alt="scikit-learn" src="https://img.shields.io/badge/-scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white">
-                    <img alt="Matplotlib" src="https://img.shields.io/badge/-Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white">
-                    <img alt="Seaborn" src="https://img.shields.io/badge/-Seaborn-3776AB?style=flat&logo=seaborn&logoColor=white">
-                    <img alt="Flask" src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white">
-                    <img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white">
-                    <img alt ="JS" src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E">
-                    <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">
-                    <img alt="CSS" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">      
-                  
-                </div>
+                    <div id="div-pill" class="col-lg-4 offset-lg-1 p-10 overflow-hidden p-5">
+                      <div  id="grid-container" >
+                        <div class="grid-container-column">
+                          <img class="p-1" src="https://img.shields.io/badge/python-%2314354C.svg?style=flat&logo=python&logoColor=white">
+                          <img class="p-1"  alt="Pandas" src="https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" />
+                          <img class="p-1"  alt="NumPy" src="https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white" />
+                          <img class="p-1" alt="scikit-learn" src="https://img.shields.io/badge/-scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white">
+                          <img class="p-1" alt="Matplotlib" src="https://img.shields.io/badge/-Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white">
+                          <img class="p-1" alt ="JS" src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E">
+                        </div>
+                        <div class="grid-container-column">
+                          <img class="p-1" alt="Seaborn" src="https://img.shields.io/badge/-Seaborn-3776AB?style=flat&logo=seaborn&logoColor=white">
+                          <img class="p-1" alt="Flask" src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white">
+                          <img class="p-1" alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white">
+                          <img class="p-1" alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">
+                          <img class="p-1" alt="CSS" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white"> 
+                        </div>
+                        <div class="grid-container-column"></div>
+                         
+                        </div>
+                      </div>
+                    
+                  </div>
                 </div>
             </div>   
         </section>
         <!--Slider-->
-        <section id = "mySlider">
+        <section id = "portfolio">
           <div class="container my-5 p-5">
+            <h2 class="fw-bold lh-1 p-1">Portfolio</h2>
             <div class="row p-4 pb-5 align-items-center rounded-3 border shadow-lg">
 
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -95,50 +105,68 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img src="img/carrusel/myapp_django.PNG" class="d-block w-100" alt="Carrusel1">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5 class ="text-dark">App Users</h5>
-                        <p class ="text-dark">Application with Django CRUD (create,read,update,detele)</p>
+                      <div class="carousel-caption d-none d-md-block d-flex justify-content-center align-content-center">
+                        <div class="bg-dark bg-opacity-75 py-5 rounded-4">
+                          <h5 class ="text-white">App Users</h5>
+                          <a href="Portafolio/warning/warning.html"target="_blank" class ="text-white"><p class ="text-white">Application with Django CRUD (create,read,update,detele)</p></a>
+                        </div>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/carrusel/form.PNG" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Form</h5>
-                        <p>Form of Datacamp for Training</p>
+                     <img src="img/carrusel/form.PNG" class="d-block w-100" alt="form">
+                      <div class="carousel-caption d-none d-md-block d-flex justify-content-center align-content-center">
+                          <div class="bg-white bg-opacity-75 py-5 rounded-4 ">
+                            <h5 class="text-dark">Form</h5>
+                            <a href="Portafolio/1_forms/test.html" target="_blank" class="text-dark" ><p class="text-dark" >Form of FreeCodeCamp for Training</p></a>
+                          </div>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <img src="img/carrusel/calculadore_con_botones (2).png" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5 class ="text-dark">Calcualtor</h5>
-                        <p class ="text-dark">Application to perform easy mathematical operations</p>
+                      <div class="carousel-caption d-none d-md-block d-flex justify-content-center align-content-center">
+                        <div class="bg-dark bg-opacity-75 py-5 rounded-4 ">
+                          <h5 class ="text-white">Calcualtor</h5>
+                          <a href="Portafolio/Calcualdora/index.html" class ="text-white" target="_blank"><p class ="text-white">Application to perform easy mathematical operations</p></a>
+                        </div>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <img src="img/carrusel/Projecto_en_flask.PNG" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Flask</h5>
-                        <p>Application coded with the Framwork of Python "Flask"</p>
+                      <div class="carousel-caption d-none d-md-block d-flex justify-content-center align-content-center">
+                        <div class="bg-warning bg-opacity-75 py-5 rounded-4 ">
+                          <h5 class ="text-dark">Flask</h5>
+                          <a href="Portafolio/warning/warning.html" target="_blank" class ="text-dark"><p class ="text-dark">Application coded with the Framwork of Python "Flask"</p></a>
+                        </div>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <img src="img/carrusel/conversor_romano.png" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Roman numerals</h5>
-                        <p>Converter from arabic numbers to roman numerals</p>
+                      <div class="carousel-caption d-none d-md-block d-flex justify-content-center align-content-center">
+                        <div class="bg-dark bg-opacity-75 py-5 rounded-4 ">
+                          <h5 class ="text-white">Roman numerals</h5>
+                          <a href="Portafolio/conversor_romano/index.html" class ="text-white" target="_blank"><p class ="text-white">Converter from arabic numbers to roman numerals</p></a>
+                        </div>
                       </div>
                     </div>
+                    <!-- <div class="carousel-item">
+                      <img src="img/carrusel/piano.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5 class ="text-white">piano</h5>
+                        <p class ="text-white" >FreeCodeCamp Training</p>
+                      </div>
+                    </div> -->
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon bg-dark bg-opacity-50" aria-hidden="true" id="my-carousel-control-prev"></span>
                     <span class="visually-hidden">Previous</span>
                   </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" id="my-carousel-control-prev">                    
+                    <span class="carousel-control-next-icon bg-dark bg-opacity-50" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
@@ -146,9 +174,9 @@
           </div>
         </section>
         <!-- Cols o Divs o Grid -> Proyectos -->
-        <section id="portfolio">
+        <section id="portfolio-otros">
           <div class="container my-5 p-5">
-            <h2 class="fw-bold lh-1">Portfolio</h2>
+            <h2 class="fw-bold lh-1">Final Projects Data Analyst/Data science</h2>
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
               
               
@@ -157,7 +185,7 @@
                   <!-- <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg> -->
                   <span class="material-symbols-outlined">arrow_circle_down</span>
                 </div>
-                  <h3 class="fs-3 lead"><a href="https://github.com/AntonSobrinoLopez/It_academy_Criptopunks" target="_blank" class="icon-link d-inline-flex align-items-center p-2 text-black">Criptopunks</a>(python)</h3>
+                  <h3 class="fs-3 lead"><a href="pdf_documents/Informe CryptoPunks.pdf" target="_blank" class="icon-link d-inline-flex align-items-center p-2 text-black">Criptopunks</a>(python)</h3>
                 <p>Final project of course of data science at it Academy about Criptopunks (NFT) in order to know which features are more important to increase the value</p>
               </div>
 
@@ -179,7 +207,7 @@
                   <!-- <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg> -->
                   <span class="material-symbols-outlined">arrow_circle_down</span>
                 </div>
-                <h3 class="fs-3 lead"><a href="https://github.com/AntonSobrinoLopez/SQL-Server-payment-means-Cipsa" target="_blank" class="icon-link d-inline-flex align-items-center text-black">Payment means</a> (SQL)</h3>
+                <h3 class="fs-3 lead"><a href="pdf_documents/ProyectoFinal_Curso_SQL_Server.pdf" target="_blank" class="icon-link d-inline-flex align-items-center text-black">Payment means</a> (SQL)</h3>
                 <p>Final project “Sql server application to process payment” from online shop. CIPSA</p>
                 <!-- <a href="https://github.com/AntonSobrinoLopez/SQL-Server-payment-means-Cipsa" target="_blank" class="icon-link d-inline-flex align-items-center">
                   acces to github
